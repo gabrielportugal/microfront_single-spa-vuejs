@@ -101,4 +101,4 @@ module.exports = defineConfig({
 - [Youtube] https://www.youtube.com/watch?v=68LaXOWwxZI&t=3075s
 
 # Licença
-Este projeto está licenciado sob a Licença MIT.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
