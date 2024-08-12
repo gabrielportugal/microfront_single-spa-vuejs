@@ -106,5 +106,5 @@ module.exports = defineConfig({
 - [Github] https://github.com/mahenrique94/video-implementando-micro-front-end-react-single-spa
 - [Youtube] https://www.youtube.com/watch?v=68LaXOWwxZI&t=3075s
 
-# :scales: Licença
+# Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](./LICENSE.txt) para mais detalhes.
