@@ -1,5 +1,11 @@
-# MICROFRONTEND SINGLE SPA
+# MICROFRONTEND SINGLE SPA VUEjs
 Este é um projeto de microfrontend onde todas as micro aplicações são desenvolvidas em Vue.js.
+
+# Definição Microfrontend
+Microfrontend é uma arquitetura de desenvolvimento frontend onde uma aplicação web é dividida em pequenos módulos ou componentes independentes, chamados de microfrontends. Cada microfrontend é responsável por uma parte específica da interface de usuário e pode ser desenvolvido, implementado e mantido de forma independente, geralmente por diferentes equipes. Essa abordagem permite que grandes aplicações sejam construídas de maneira modular, facilitando a escalabilidade, a manutenção e a evolução da aplicação ao longo do tempo.
+
+# Definição Single SPA
+Single SPA (Single Single-Page Application) é um framework para construção de microfrontends, permitindo que diferentes microfrontends coexistam em uma mesma aplicação. Ele possibilita a integração de múltiplas Single-Page Applications (SPAs), escritas em diferentes frameworks (como React, Vue, Angular, etc.), em uma única aplicação sem perder a independência de cada uma delas. O Single SPA gerencia o carregamento, montagem e desmontagem dessas microfrontends conforme o usuário navega na aplicação, proporcionando uma experiência fluida e contínua.
 
 ## Executando o Single Spa
 Para executar este projeto, você deve navegar até cada pasta do microfrontend, rodar ```npm install``` para instalar as dependências necessárias e, em seguida, iniciar os projetos usando o comando apropriado, como ```npm start``` ou ```npm run serve:standalone```, em cada pasta conforme necessário.
