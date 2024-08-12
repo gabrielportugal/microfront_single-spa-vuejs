@@ -1,22 +1,22 @@
 # MICROFRONTEND SINGLE SPA VUEjs
 Este é um projeto de microfrontend onde todas as micro aplicações são desenvolvidas em Vue.js.
 
-# Definição Microfrontend
+## Definição Microfrontend
 Microfrontend é uma arquitetura de desenvolvimento frontend onde uma aplicação web é dividida em pequenos módulos ou componentes independentes, chamados de microfrontends. Cada microfrontend é responsável por uma parte específica da interface de usuário e pode ser desenvolvido, implementado e mantido de forma independente, geralmente por diferentes equipes. Essa abordagem permite que grandes aplicações sejam construídas de maneira modular, facilitando a escalabilidade, a manutenção e a evolução da aplicação ao longo do tempo.
 
-# Definição Single SPA
+## Definição Single SPA
 Single SPA (Single Single-Page Application) é um framework para construção de microfrontends, permitindo que diferentes microfrontends coexistam em uma mesma aplicação. Ele possibilita a integração de múltiplas Single-Page Applications (SPAs), escritas em diferentes frameworks (como React, Vue, Angular, etc.), em uma única aplicação sem perder a independência de cada uma delas. O Single SPA gerencia o carregamento, montagem e desmontagem dessas microfrontends conforme o usuário navega na aplicação, proporcionando uma experiência fluida e contínua.
 
 ## Executando o Single Spa
 Para executar este projeto, você deve navegar até cada pasta do microfrontend, rodar ```npm install``` para instalar as dependências necessárias e, em seguida, iniciar os projetos usando o comando apropriado, como ```npm start``` ou ```npm run serve:standalone```, em cada pasta conforme necessário.
 
-### Projetos importantes
+# Projetos importantes
 Projetos essenciais para o funcionamento adequado do sistema:
 - single-spa: Gerenciador de micro frontends.
 - utils: Módulo utilitário compartilhado.
 - vuejs-header: Cabeçalho para navegação entre aplicações.
 
-## Executando o Single Spa
+# Executando o Single Spa
 Para rodar o projeto SingleSpa:
 
 ```bash
@@ -45,7 +45,7 @@ Após iniciar todos os projetos, abra o navegador e acesse a URL correspondente.
 localhost:9000
 ```
 
-## Criar Aplicação Single-SPA
+# Criar Aplicação Single-SPA
 Para criar uma aplicação do Single-SPA, utilize o comando:
 
 ```bash
@@ -101,7 +101,7 @@ module.exports = defineConfig({
 })
 ```
 
-## Créditos
+# Créditos
 - Inspiração no projeto do Matheus Castiglioni
 - [Github] https://github.com/mahenrique94/video-implementando-micro-front-end-react-single-spa
 - [Youtube] https://www.youtube.com/watch?v=68LaXOWwxZI&t=3075s
